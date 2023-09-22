@@ -1,0 +1,79 @@
+*{margin: 0; padding: 0;}
+
+html{ 
+    background-image: url(../img/sf.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 24px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background: #c53d3d;
+    box-shadow: 1px 1px 50px #e42d1f;
+    position: fixed;
+
+}
+#super{
+    background-color: #000;
+    border-radius: 4px;
+    width: 135px;
+}
+
+#menu{
+    width: 950px;
+    padding-top: 10px;
+    margin: auto;
+}
+
+#menu ul a{
+    color: #000;
+    text-decoration: none;
+    font: 16px;
+    padding: 13px 20px 19px 20px;
+}
+
+/* ---------------------- EFECTO HOVER */
+#menu ul a:hover{
+    color: #fff;
+    background-color: #ca0101;
+
+}
+
+
+aside{
+    width: 40%;
+    padding: 10px;
+    margin: 15px;
+    float: left;
+    font-style: italic;
+    background: #3b1200;
+    border-radius: 8px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.6em;
+}
+h3{
+    background-color: #96037d38;
+}
+#ul1{
+    background-color: #50012f7a;
+}
+#foot_der {
+    background: linear-gradient(to right, #6b1400, #8a3f02bb, #85028abb );
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+
+}
+#foot_der a {
+    color: #ffffff;
+}
+.info{
+    background-color: #7700779a;
+}
